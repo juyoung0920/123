@@ -1,0 +1,197 @@
+/*BlackHole*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background :linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/sky.jpg);
+    background-size: cover;
+}
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header h1 a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Pushster', cursive;
+}
+
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .nav ul li a:hover{
+    color: #1fdfdf;
+}
+
+.container .hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container .header p{
+    font-size: 22px;
+}
+
+.container .hero button{
+    background: none;
+    border: 2px solid darkseagreen;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+    font-size: 17px;
+}
+
+.container .hero button:hover{
+    background-color: darkslategray;
+    text-decoration: none;
+}
+
+/*Earth_Science, Physics*/
+.tcontainer{
+    
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Earth_Science.jpg);
+    color: white;
+    height: 2400px;
+    background-size: cover;
+}
+
+h3{
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+
+.tcontainer .theader{
+    height: 120px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.tcontainer .text{
+    font-family: 'Dongle', sans-serif;
+}
+
+.tcontainer .text .title{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 60px;
+}
+
+.tcontainer .text .content{
+    margin: 0 50px;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.img{
+    margin: 80px 150px;
+}
+
+.img2{
+    margin: 0 150px;
+}
+
+/*Books*/
+
+.bcontainer{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/books.jpg);
+    color: black;
+    height: 210vh;
+    background-size: cover;
+}
+
+.bcontainer .bcontent{
+    line-height: 40px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 27px;
+}
+
+.bcontainer .bcontent table{
+    border: 3px groove black;
+    border-radius: 8px;
+    margin: 150px 200px;
+    padding: 20px 20px;
+}
+
+.bcontainer .bcontent img{
+    margin: 30px 20px;
+    margin-right: 150px;
+}
+
+/*Scientist*/
+
+.scontainer{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Scientist.jpg);
+    height: 250vh;
+}
+
+.scontainer .scontent{
+    line-height: 40px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 27px;
+}
+
+.scontainer .scontent table{
+    border: 3px dashed black;
+    border-radius: 8px;
+    margin: 150px 120px;
+    padding: 5px 20px;
+}
+
+.scontainer .scontent img{
+    margin: 13px 20px;
+    margin-right: 150px;
+}
+
+h5{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 140px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
